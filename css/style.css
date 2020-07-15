@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #000400;
+  line-height: 1.6; }
+
+header .navbar-light .navbar-nav .nav-item .nav-link, .btn-custom, .books-section .book:hover, footer ul li a {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease; }
+
+header {
+  background-color: #F0FFF0; }
+  header .navbar-brand img {
+    width: 200px; }
+  header .navbar-light .navbar-nav .nav-item .nav-link {
+    color: #000400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 6px 20px;
+    border-radius: 30px; }
+    header .navbar-light .navbar-nav .nav-item .nav-link:hover {
+      color: #fff;
+      background-color: #21B573;
+      border-radius: 30px;
+      padding: 6px 20px; }
+  header .navbar-light .navbar-nav .nav-item:last-child .nav-link {
+    color: #fff;
+    background-color: #21B573; }
+  header h5 {
+    color: #ff0000d1;
+    font-size: 18px; }
+  header h1 {
+    color: #000400;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 15px 0; }
+    header h1 span {
+      color: #21B573; }
+  header p {
+    color: #000400;
+    opacity: 0.7;
+    line-height: 1.8;
+    font-size: 17px; }
+
+.btn-custom {
+  background-color: #21B573;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 6px 20px;
+  border-radius: 30px;
+  border: 2px solid #21B573; }
+  .btn-custom:hover {
+    background-color: transparent;
+    color: #21B573; }
+
+.books-section {
+  padding: 50px 0; }
+  .books-section .book {
+    background-color: #F0FFF0;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 10px; }
+    .books-section .book:hover {
+      background-color: #fff;
+      box-shadow: 0 20px 40px #0000001a; }
+    .books-section .book img {
+      height: 80px; }
+    .books-section .book h2 {
+      font-size: 25px;
+      font-weight: 600;
+      margin: 15px 0 0; }
+    .books-section .book p {
+      color: #000400;
+      opacity: 0.7;
+      line-height: 1.8;
+      font-size: 17px;
+      margin-bottom: 0; }
+
+.heading {
+  text-align: center;
+  padding: 50px 0; }
+  .heading h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #333; }
+
+.courses-section .course {
+  border: none;
+  box-shadow: 0 20px 40px #0000001a;
+  border-radius: 10px; }
+  .courses-section .course .card-body .card-title {
+    font-size: 25px;
+    color: #333;
+    margin-top: 18 px;
+    margin-bottom: 0; }
+  .courses-section .course .card-body .card-text {
+    color: #000400;
+    opacity: 0.7;
+    margin-top: 10px;
+    font-size: 18px; }
+  .courses-section .course .card-body .nav {
+    margin-top: 10px;
+    align-items: center; }
+    .courses-section .course .card-body .nav li img {
+      width: 20px;
+      border-radius: 10px; }
+    .courses-section .course .card-body .nav li span {
+      font-size: 14px;
+      font-weight: 500;
+      color: #333; }
+
+.testimonial-section {
+  padding: 50px 0; }
+  .testimonial-section p {
+    color: #000400;
+    opacity: 0.7;
+    font-size: 17px; }
+
+footer {
+  background-color: #282531;
+  color: #fff;
+  padding: 50px 0; }
+  footer p {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 17px; }
+  footer ul li a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    display: block;
+    padding: 3px 0; }
+    footer ul li a:hover {
+      color: #fff;
+      text-decoration: none;
+      opacity: 0.6; }
+
+.copyright {
+  text-align: center;
+  margin-top: 40px; }
+  .copyright p {
+    color: #fff;
+    font-size: 15px; }
+    .copyright p a {
+      color: #21B573; }
+
+@media (max-width: 1199px) {
+  header h1 {
+    font-size: 55px; }
+
+  .books-section .book h2 {
+    font-size: 20px; }
+
+  .books-section .book p {
+    font-size: 16px; }
+
+  .course .btn-custom {
+    font-size: 15px;
+    padding: 4px 20px; } }
+@media (max-width: 991px) {
+  .navbar-nav {
+    justify-content: center;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+
+  header h1 {
+    font-size: 40px; }
+
+  header p {
+    font-size: 16px; }
+
+  .books-section .book img {
+    height: 60px; }
+
+  .books-section .book h2 {
+    font-size: 15px; }
+
+  .books-section .book p {
+    font-size: 14px; }
+
+  .course .card-body {
+    padding: 10px; }
+
+  .courses-section .course .card-body .card-title {
+    font-size: 18px; }
+
+  .courses-section .course .card-body .nav li:last-child {
+    display: none; } }
+@media (max-width: 767px) {
+  .navbar-nav .nav-item .nav-link {
+    color: #000400;
+    font-size: 15px; }
+
+  header .col-md img {
+    width: 350px;
+    margin-top: 30px; }
+
+  header .row {
+    text-align: center; }
+
+  .book {
+    margin-bottom: 30px; }
+
+  .course {
+    margin-bottom: 30px; }
+
+  .testimonial-section p {
+    font-size: 14px; } }
+@media (max-width: 575px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center; }
+
+  .courses-section .course .card-body .nav li:last-child {
+    display: block; }
+
+  .courses-section .course .card-body .card-title {
+    font-size: 25px; }
+
+  .testimonial-section p {
+    text-align: center; }
+
+  footer {
+    text-align: center; }
+    footer h3 {
+      font-size: 20px;
+      color: #21B573; }
+    footer ul li a {
+      font-size: 13px; } }
+
+/*# sourceMappingURL=style.css.map */
